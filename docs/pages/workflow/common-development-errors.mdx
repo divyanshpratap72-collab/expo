@@ -1,4 +1,37 @@
----
+---{
+  "expo": {
+    "name": "RAMA Dairy Farm",
+    "slug": "rama-dairy-farm",
+    "owner": "Divyansh72",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.ramadairyfarm.app"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
+
 title: Common development errors
 description: A list of common development errors that are encountered by developers using Expo.
 ---
@@ -39,3 +72,4 @@ This page outlines a list of errors that are commonly encountered by developers 
 
 - It is possible caches may be preventing you from seeing the current state of your application.
 - Clear all caches associated with your project in [Unix-like](/troubleshooting/clear-cache-macos-linux/) or [Windows](/troubleshooting/clear-cache-windows/) systems.
+
