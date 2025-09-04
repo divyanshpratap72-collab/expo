@@ -7,7 +7,6 @@
   "main": "build/index",
   "types": "build/index.d.ts",
   "sideEffects": [
-    "rsc/entry.js",
     "entry-classic.js",
     "entry.js"
   ],
@@ -39,7 +38,6 @@
     "unstable-native-tabs.d.ts",
     "node",
     "plugin",
-    "rsc",
     "server.d.ts",
     "server.js",
     "stack.d.ts",
